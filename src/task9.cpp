@@ -14,6 +14,7 @@ const int IN3 = 12;
 const int IN4 = 11;
 
 // Value of ConstP, ConstD and BaseP aren't fixed and here used arbitrarily.
+// The values are taken considering values of error, and the dx/dt, so that values, remain under control, although testing is required for actual values.
 float ConstP = 15;
 float ConstD = 0.05;
 
